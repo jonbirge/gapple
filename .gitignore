@@ -17,9 +17,10 @@ frontend/dist/
 .env
 
 # SQLite
-data/*.db
-data/*.db-journal
-data/*.db-wal
+data/
+*.db
+*.db-journal
+*.db-wal
 
 # IDE
 .vscode/
